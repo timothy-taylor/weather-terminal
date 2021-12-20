@@ -6,7 +6,7 @@ const path = require('path');
       entry: './src/index.js',
       plugins: [
         new HtmlWebpackPlugin({
-          title: 'MyApp',
+          title: 'Current Weather Terminal',
         }),
         new Dotenv(),
       ],
